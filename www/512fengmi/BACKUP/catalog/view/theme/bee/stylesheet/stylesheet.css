@@ -1,3 +1,8 @@
+/*
+ * Change log 
+ * menu-color: #F79610;
+ * */
+
 html {
 	overflow: -moz-scrollbars-vertical;
 	margin: 0;
@@ -94,6 +99,15 @@ label {
 	padding-bottom: 4px;
 	position: relative;
 	z-index: 99;
+	background-image: url("../image/bg_body.jpg") ;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: fixed;
+	background-position-x: 50%;
+	background-position-y: 0%;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
 }
 #header #logo {
 	position: absolute;
@@ -314,7 +328,7 @@ label {
 }
 /* menu */
 #menu {
-	background: #585858;
+	background: #F79610;
 	border-bottom: 1px solid #000000;
 	height: 37px;
 	margin-bottom: 15px;
@@ -1539,7 +1553,7 @@ a.button:hover span {
 	overflow: auto;
 	min-height: 100px;
 	padding: 20px;
-	border-top: 1px solid #DBDEE1;
+	border-top: 2px solid #F79610;
 	border-bottom: 1px solid #DBDEE1;
 	background: #F8F8F8;
 }
