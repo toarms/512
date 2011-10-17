@@ -76,7 +76,7 @@ label {
 }
 #column-left {
 	float: left;
-	width: 180px;
+	width: 160px;
 }
 #column-right {
 	float: right;
@@ -87,7 +87,7 @@ label {
 	margin-bottom: 25px;
 }
 #column-left + #column-right + #content, #column-left + #content {
-	margin-left: 195px;
+	margin-left: 175px;
 }
 #column-right + #content {
 	margin-right: 195px;
@@ -1615,4 +1615,9 @@ a.button:hover span {
 }
 .banner div img {
 	margin-bottom: 20px;
+}
+
+.frontred{
+	color: red;
+	font-weight: bold;
 }
