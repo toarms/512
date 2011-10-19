@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title'] = '会员退出';
+$_['heading_title'] = '用户退出';
 
 // Text
 $_['text_message']  = '<p>您已成功退出...</p><p>购物车内的商品已帮您保存</p>';

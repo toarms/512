@@ -28,6 +28,7 @@ $_['entry_zone']           = '地区或省份:';
 $_['entry_newsletter']     = '订阅电子报:';
 $_['entry_password']       = '输入密码:';
 $_['entry_confirm']        = '确认密码:';
+$_['entry_captcha']  	   = '输入验证码:';
 
 // Error
 $_['error_exists']         = '很抱歉: 这个邮箱已被注册，请换一个邮箱!';
@@ -43,4 +44,5 @@ $_['error_zone']           = '请选择地区或省份!';
 $_['error_telephone']      = '电话号码必须在3到32位!';
 $_['error_agree']          = '很抱歉: 您尚未同意 %s 条款';
 $_['error_postcode']    = '邮递区号必须在2到10个位之间';
+$_['error_captcha']  = '验证码有误，请重新输入!';
 ?>

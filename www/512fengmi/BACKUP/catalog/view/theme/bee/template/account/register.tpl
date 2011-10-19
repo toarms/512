@@ -42,7 +42,20 @@
             <span class="error"><?php echo $error_email; ?></span>
             <?php } ?></td>
         </tr>
+
+
+
+    <tr>
+	<td><span class="required">*</span><?php echo $entry_captcha; ?></b><br /></td>
+    	<td><input type="text" name="captcha" value="<?php echo $captcha; ?>" />
+    <img src="index.php?route=information/contact/captcha" alt="" />
+    <?php if ($error_captcha) { ?>
+    <span class="error"><?php echo $error_captcha; ?></span>
+    <?php } ?>
+	</td>
+    </tr>
       </table>
+
     </div>
     <?php if ($text_agree) { ?>
     <div class="buttons">
